@@ -1,0 +1,66 @@
+.cards {
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-category {
+  color: white;
+  font-weight: 600;
+  padding: 30px;
+  background-image:linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.40164569245667014)), url('https://source.unsplash.com/random');
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.card-product {
+  justify-content: space-between;
+  align-items: center;
+}
+.card-product img {
+  width: 120px;
+  object-fit: cover;
+  border-radius: 6px 0 0 6px;
+}
+.product-infos {
+  font-size: 0.8em;
+  padding-right: 30px;
+  justify-content: flex-start;
+}
+
+.card-trip {
+ flex-wrap: wrap;
+}
+.bar-infos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  height: 75px;
+  position: relative;
+}
+
+.trip-infos {
+
+}
+
+.avatar {
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border: 2px solid white;
+
+}
+
+
+
+
+/*
+background-image:linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.40164569245667014)), url('https://source.unsplash.com/random');
+*/
